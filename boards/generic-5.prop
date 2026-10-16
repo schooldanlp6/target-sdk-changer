@@ -1,0 +1,9 @@
+# Stock AOSP Android 5.0
+name=generic-5
+android=5.0
+api=21
+base_framework=tools/aosp/android-all-5.0.2_r3-robolectric-r0.jar
+models=
+target_api=30
+# framework code lives in the boot image (oat): on-phone extraction not written yet
+status=port-only

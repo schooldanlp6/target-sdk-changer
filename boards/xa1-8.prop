@@ -1,0 +1,11 @@
+# Sony Xperia XA1, stock Sony Android 8.0 (last official update)
+name=xa1-8
+android=8.0
+api=26
+# Sony's framework files from the phone (framework.jar + boot-*.vdex ...),
+# converted automatically; AOSP 8.0 is used until they're provided
+phone_files=boards/xa1-8
+base_framework_fallback=tools/aosp/android-all-8.0.0_r4-robolectric-r1.jar
+models=G3121 G3123 G3125 G3112 G3116
+target_api=30
+status=supported

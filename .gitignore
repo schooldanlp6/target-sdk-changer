@@ -1,0 +1,15 @@
+# build output (./build.py, make)
+build/
+out/
+__pycache__/
+
+# user-provided phone framework files for custom boards (make init creates it)
+imported/
+
+# signing key created by sdkpatch.py: private, never commit
+keys/
+
+# downloaded / generated tools (see tools/aosp/README.md and make init)
+tools/aosp/*.jar
+tools/vdexExtractor/
+tools/bin/

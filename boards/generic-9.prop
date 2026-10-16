@@ -1,0 +1,9 @@
+# Stock AOSP Android 9
+name=generic-9
+android=9
+api=28
+base_framework=tools/aosp/android-all-9-robolectric-4913185-2.jar
+models=
+target_api=30
+# vdex v019 like 8.0; module untested on a phone
+status=supported

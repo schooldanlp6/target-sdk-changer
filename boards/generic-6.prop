@@ -1,0 +1,9 @@
+# Stock AOSP Android 6.0
+name=generic-6
+android=6.0
+api=23
+base_framework=tools/aosp/android-all-6.0.1_r3-robolectric-r1.jar
+models=
+target_api=30
+# framework code lives in the boot image (oat): on-phone extraction not written yet
+status=port-only

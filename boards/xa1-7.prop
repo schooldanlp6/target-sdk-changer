@@ -1,0 +1,10 @@
+# Sony Xperia XA1, stock Sony Android 7.x
+name=xa1-7
+android=7.1
+api=25
+phone_files=boards/xa1-7
+base_framework_fallback=tools/aosp/android-all-7.1.0_r7-robolectric-r1.jar
+models=G3121 G3123 G3125 G3112 G3116
+target_api=30
+# Android 7 keeps framework code in oat files, not vdex: extraction not written yet (TODO.md, Phase 3)
+status=planned

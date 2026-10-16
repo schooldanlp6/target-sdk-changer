@@ -1,0 +1,10 @@
+# Stock AOSP Android 8.0 (any device/emulator running unmodified 8.0)
+name=generic-8
+android=8.0
+api=26
+# reference framework the backports are checked against
+base_framework=tools/aosp/android-all-8.0.0_r4-robolectric-r1.jar
+# phone models allowed to install (ro.product.model); empty = any
+models=
+target_api=30
+status=supported

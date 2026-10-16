@@ -1,0 +1,9 @@
+# Stock AOSP Android 7.1
+name=generic-7.1
+android=7.1
+api=25
+base_framework=tools/aosp/android-all-7.1.0_r7-robolectric-r1.jar
+models=
+target_api=30
+# framework code lives in the boot image (oat): on-phone extraction not written yet
+status=port-only
